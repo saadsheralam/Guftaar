@@ -1,4 +1,10 @@
-# Guftaar 
+# Guftaar
+
+<p align='center'>
+    <img width="267" alt="guftaar_landing_page" src="https://github.com/saadsheralam/Guftaar/assets/88395107/8d696d06-003c-4a49-8576-b0b63e65a694">
+</p>
+
+
 Guftaar is a first-of-its-kind English language m-Health web application catering to PWS (people
 who stutter), connecting them with speech therapists and also providing virtual multi-feature treatment support. 
 
@@ -41,7 +47,7 @@ The repository contains in-depth documentation for the project:
     - Data Flow Diagram 
     - Use Case Diagram 
     
-3. [Software Design Specification (SDS)](https://github.com/saadsheralam/Guftaar/blob/main/documentation/SDS.pdf): Outlines the change log (any changes to requirements and use-cases from SRS), details the system architecture (data structures and DB model), and UI design (with Figma screens). The following diagrams in the SRS might be worth refering to:
+3. [Software Design Specification (SDS)](https://github.com/saadsheralam/Guftaar/blob/main/documentation/SDS.pdf): Outlines the change log (any changes to requirements and use-cases from SRS), details the system architecture (data structures and DB model), and UI design (with Figma screens). The following diagrams in the SDS might be worth refering to:
     - System Decomposition 
     - Activity Diagram 
     - Sequence Diagrams 
