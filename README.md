@@ -56,4 +56,33 @@ The repository contains in-depth documentation for the project:
     - Information Architecture Diagrams
     - UI Screens 
     
-4. [Testing Documentation](https://github.com/saadsheralam/Guftaar/blob/main/documentation/testing.pdf): Details test environments, test cases, manual testing, and automated testing.  
+4. [Testing Documentation](https://github.com/saadsheralam/Guftaar/blob/main/documentation/testing.pdf): Details test environments, test cases, manual testing, and automated testing.
+
+### Building 
+To build and run the project locally, you can follow the following steps: 
+1. Clone the repository: 
+```
+git clone https://github.com/saadsheralam/Guftaar.git
+```
+2. If you do not have npm installed, install npm by following [these](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) instructions. 
+3. Navigate to the cloned directory. 
+4. Run the following command to install all dependencies: 
+```
+npm i
+```
+5. Create an .env file in the server directory and set it up with the `PORT` and `URI` (MongoDB connection string). An example .env file might look like this: 
+
+```
+PORT=3000
+URI=mongodb+srv://<user>:<password>@<cluster0.example.mongodb.net>/?retryWrites=true&w=majority
+```
+6. In the root directory of the project, run the following command to start the server and connect to MongoDB: 
+```
+npm run start 
+```
+7. Navigate to the client directory, install node modules, and start the React app: 
+```
+cd client 
+npm i --force 
+npm start 
+```
